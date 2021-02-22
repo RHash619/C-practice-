@@ -1,3 +1,3 @@
-# C# projects 
+C#  
 Embedded System Programming Lab (Lab 1) –Morse Code, code  that  outputs  an  arbitrary  string  by  blinking the LED in Morse code.Make your Name and Red ID blink in Morse Code on the AVRXplained mini  328  board.The  method  you  choose  mustcapable  ofoutputtingany  standard  null-terminated string containing characters A-Z or 0-9 in Morse code on the board's LED.
 he  program  is  recommended  to  have  different  functions  for  dot,  dash,  and  spacing.  (The functions can be called based on the desired output.) Using functions make it simple to design multiple outputs, as you simply call on what you need whenever. Assume, one unit of time for this program will be 200ms. A dot is equivalent one unit (200ms)A dash is equivalent to three units (600ms)The space between the dot/dash units of the same letter is one unit (200ms)The space between different letters is three units (600ms)The space between words is seven units (1400ms)
